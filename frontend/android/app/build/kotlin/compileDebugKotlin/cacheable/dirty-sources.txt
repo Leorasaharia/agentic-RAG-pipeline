@@ -1,0 +1,13 @@
+C:\Users\hp\Desktop\AgenticRAG\frontend\android\app\src\main\java\com\agenticrag\app\ui\screens\ChatScreen.kt
+C:\Users\hp\Desktop\AgenticRAG\frontend\android\app\src\main\java\com\agenticrag\app\repository\ChatRepository.kt
+C:\Users\hp\Desktop\AgenticRAG\frontend\android\app\src\main\java\com\agenticrag\app\ui\screens\LoginScreen.kt
+C:\Users\hp\Desktop\AgenticRAG\frontend\android\app\src\main\java\com\agenticrag\app\network\ApiService.kt
+C:\Users\hp\Desktop\AgenticRAG\frontend\android\app\src\main\java\com\agenticrag\app\repository\DocumentRepository.kt
+C:\Users\hp\Desktop\AgenticRAG\frontend\android\app\src\main\java\com\agenticrag\app\ui\screens\DashboardScreen.kt
+C:\Users\hp\Desktop\AgenticRAG\frontend\android\app\src\main\java\com\agenticrag\app\ui\viewmodel\AuthViewModel.kt
+C:\Users\hp\Desktop\AgenticRAG\frontend\android\app\src\main\java\com\agenticrag\app\ui\viewmodel\ChatViewModel.kt
+C:\Users\hp\Desktop\AgenticRAG\frontend\android\app\src\main\java\com\agenticrag\app\MainActivity.kt
+C:\Users\hp\Desktop\AgenticRAG\frontend\android\app\src\main\java\com\agenticrag\app\network\ChatWebSocketClient.kt
+C:\Users\hp\Desktop\AgenticRAG\frontend\android\app\src\main\java\com\agenticrag\app\repository\AuthRepository.kt
+C:\Users\hp\Desktop\AgenticRAG\frontend\android\app\src\main\java\com\agenticrag\app\network\RetrofitInstance.kt
+C:\Users\hp\Desktop\AgenticRAG\frontend\android\app\src\main\java\com\agenticrag\app\ui\viewmodel\DashboardViewModel.kt

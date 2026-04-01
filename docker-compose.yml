@@ -1,0 +1,54 @@
+services:
+  db:
+    image: postgres:15
+    container_name: agenticrag_db
+    restart: always
+    environment:
+      POSTGRES_USER: rag_user
+      POSTGRES_PASSWORD: rag_password
+      POSTGRES_DB: agenticrag_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7
+    container_name: agenticrag_redis
+    restart: always
+    ports:
+      - "6379:6379"
+
+  api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: agenticrag_api
+    restart: always
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://rag_user:rag_password@db:5432/agenticrag_db
+      - CELERY_BROKER_URL=redis://redis:6379/0
+      - OPENAI_API_KEY=${sk-efghijkl5678mnopabcd1234efghijkl5678mnop}
+      - JWT_SECRET=supersecret123
+    depends_on:
+      - db
+      - redis
+
+  worker:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.worker
+    container_name: agenticrag_worker
+    restart: always
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://rag_user:rag_password@db:5432/agenticrag_db
+      - CELERY_BROKER_URL=redis://redis:6379/0
+      - OPENAI_API_KEY=${sk-efghijkl5678mnopabcd1234efghijkl5678mnop}
+    depends_on:
+      - db
+      - redis
+
+volumes:
+  postgres_data:
