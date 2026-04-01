@@ -1,4 +1,4 @@
-
+# Build artifacts and generated files
 node_modules/ linguist-vendored
 build/ linguist-vendored
 dist/ linguist-vendored
@@ -7,10 +7,11 @@ dist/ linguist-vendored
 *.log linguist-generated
 *.json linguist-generated
 *.xml linguist-generated
-
 *.yml linguist-generated
 *.yaml linguist-generated
 docker-compose.yml linguist-generated
+requirements.txt linguist-generated
+*.env linguist-generated
 
 # Python
 *.py linguist-language=Python
@@ -20,13 +21,20 @@ docker-compose.yml linguist-generated
 
 # Kotlin
 *.kt linguist-language=Kotlin
+*.kts linguist-language=Kotlin
 
 # Docker
 Dockerfile linguist-language=Dockerfile
+Dockerfile.* linguist-language=Dockerfile
 *.dockerfile linguist-language=Dockerfile
 
-# Batch
+# Shell / Scripts
+*.sh linguist-language=Shell
 *.bat linguist-language=Batchfile
 
-# Redis
+# SQL / DB
+*.sql linguist-language=SQL
+
+# Redis / Configs
 *.conf linguist-language=Redis
+*.properties linguist-generated
