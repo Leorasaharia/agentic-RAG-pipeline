@@ -1,0 +1,59 @@
+# Build directories
+build/
+bin/
+**/build/
+**/*.exe
+**/*.dll
+**/*.so
+**/*.class
+**/*.jar
+
+# Gradle
+.gradle/
+*.gradle
+!build.gradle
+!settings.gradle
+
+# Android
+*.apk
+*.aar
+*.ap_
+*.dex
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.pytest_cache/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Reports/Logs in general
+**/reports/
+**/test-results/
