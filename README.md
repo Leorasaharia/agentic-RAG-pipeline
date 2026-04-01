@@ -15,8 +15,7 @@ The professional web-based management portal for ingesting documents, monitoring
 
 ### Android Mobile View
 The native Jetpack Compose mobile app for real-time, streaming AI chat on the go.
-![AgenticRAG Android Mobile]
-<img width="338" height="669" alt="image" src="https://github.com/user-attachments/assets/7eff1bdd-369b-446a-928f-9c741c6a3ba7" />
+<!-- <img width="338" height="669" alt="image" src="https://github.com/user-attachments/assets/7eff1bdd-369b-446a-928f-9c741c6a3ba7" /> -->
 
 ---
 
