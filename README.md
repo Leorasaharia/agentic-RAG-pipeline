@@ -9,12 +9,14 @@ It combines a **multi-agent pipeline**, **asynchronous processing**, and a **nat
 
 ### Desktop Dashboard View
 The professional web-based management portal for ingesting documents, monitoring system health, and viewing detailed retrieval analytics.
-![AgenticRAG Desktop Dashboard Mockup](file:///C:/Users/hp/.gemini/antigravity/brain/e16a2da9-0b1a-4d54-9203-a476864963c1/agentic_rag_desktop_dashboard_mockup_1775030879651.png)
+![AgenticRAG Desktop Dashboard]
+<img width="1435" height="841" alt="image" src="https://github.com/user-attachments/assets/87adb3b3-dbee-427a-9129-77d566d3d048" />
 
 
 ### Android Mobile View
 The native Jetpack Compose mobile app for real-time, streaming AI chat on the go.
-![AgenticRAG Android Mobile Mockup](file:///C:/Users/hp/.gemini/antigravity/brain/e16a2da9-0b1a-4d54-9203-a476864963c1/agentic_rag_full_mockup_1775030716011.png)
+![AgenticRAG Android Mobile]
+<img width="338" height="669" alt="image" src="https://github.com/user-attachments/assets/7eff1bdd-369b-446a-928f-9c741c6a3ba7" />
 
 ---
 
