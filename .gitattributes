@@ -1,0 +1,32 @@
+
+node_modules/ linguist-vendored
+build/ linguist-vendored
+dist/ linguist-vendored
+.gradle/ linguist-vendored
+*.lock linguist-generated
+*.log linguist-generated
+*.json linguist-generated
+*.xml linguist-generated
+
+*.yml linguist-generated
+*.yaml linguist-generated
+docker-compose.yml linguist-generated
+
+# Python
+*.py linguist-language=Python
+
+# Java
+*.java linguist-language=Java
+
+# Kotlin
+*.kt linguist-language=Kotlin
+
+# Docker
+Dockerfile linguist-language=Dockerfile
+*.dockerfile linguist-language=Dockerfile
+
+# Batch
+*.bat linguist-language=Batchfile
+
+# Redis
+*.conf linguist-language=Redis
